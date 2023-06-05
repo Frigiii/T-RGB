@@ -10,9 +10,9 @@
 #include <Arduino.h>
 #include "lv_demo_music.h"
 
-// #define USING_2_1_INC_CST820     1           //  Full circle 2.1 inches using CST820 touch screen
-// #define USING_2_8_INC_GT911      1           //  Full circle 2.8 inches using GT911 touch screen
-// #define USING_2_1_INC_FT3267     1           //  Half circle 2.1 inches use FT3267 touch screen
+#define USING_2_1_INC_CST820     0           //  Full circle 2.1 inches using CST820 touch screen
+#define USING_2_8_INC_GT911      0           //  Full circle 2.8 inches using GT911 touch screen
+#define USING_2_1_INC_FT3267     1           //  Half circle 2.1 inches use FT3267 touch screen
 
 
 
