@@ -194,6 +194,7 @@ static void lv_touchpad_read(lv_indev_drv_t *indev_driver, lv_indev_data_t *data
     static uint16_t lastX, lastY;
 #if defined(USING_2_1_INC_FT3267)
     uint8_t touch_points_num;
+    TP_Point p;
     ft3267_read_pos(&touch_points_num, &p.x, &p.y);
     data->point.x = p.x;
     data->point.y = p.y;
